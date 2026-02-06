@@ -18,3 +18,7 @@ faiss_db/
 
 # MacOS specific files 
 .DS_Store.venv/
+.history/
+.lh/
+.history/
+.lh/
