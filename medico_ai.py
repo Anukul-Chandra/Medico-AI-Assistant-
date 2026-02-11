@@ -11,7 +11,9 @@ from langchain_community.vectorstores import FAISS
 from huggingface_hub import InferenceClient
 
 # --- Configuration ---
-DB_FAISS_PATH = "/Users/anukulchandra/Medico AI/vectorstore/faiss_db" 
+# DB_FAISS_PATH = "/Users/anukulchandra/Medico AI/vectorstore/faiss_db" 
+
+DB_FAISS_PATH = "vectorstore/faiss_db"  # Relative path for Streamlit deployment
 HF_TOKEN = os.environ.get("HF_TOKEN")
 REPO_ID = "HuggingFaceH4/zephyr-7b-beta"
 
