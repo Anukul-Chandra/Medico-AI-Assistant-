@@ -10,6 +10,18 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from huggingface_hub import InferenceClient
 
+
+# --- Page Configuration (Must be first) ---
+st.set_page_config(page_title="Medico AI", page_icon="🩺", layout="wide")
+
+# --- 1. ROBUST TOKEN LOADING (Here is the Fix 🛠️) 
+
+if "HF_TOKEN" in st.secrets:
+    HF_TOKEN = st.secrets["HF_TOKEN"]
+else:
+    load_dotenv()
+    HF_TOKEN = os.getenv("HF_TOKEN")
+
 # --- Configuration ---
 # DB_FAISS_PATH = "/Users/anukulchandra/Medico AI/vectorstore/faiss_db" 
 
