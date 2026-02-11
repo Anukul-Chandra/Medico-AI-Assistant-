@@ -9,6 +9,17 @@
 
 ---
 
+## 🚀 **Features**
+
+* **🤖 AI Chatbot:** Interacts naturally with users to answer health questions.
+* **📚 RAG Integration:** Fetches relevant medical information from a curated knowledge base (PDFs/Docs) for precise answers.
+* **📜 Chat History:** Remembers previous conversations for a continuous flow.
+* **⚡ Real-time Responses:** Fast and efficient query processing.
+* **🎨 User-Friendly Interface:** Built with Streamlit for a clean and intuitive experience.
+* **🔄 Auto-Scroll:** Automatically scrolls to the latest message for better UX.
+
+---
+
 ## 🧠 **AI Architecture & LLM Integration**
 
 This project is built upon a sophisticated AI pipeline to ensure accuracy and reduce hallucinations:
@@ -32,7 +43,7 @@ We used a modern, scalable tech stack to build this application:
 
 * **[LangChain](https://www.langchain.com/):** The backbone of our application. It manages the chain of thought, connects the LLM with the prompt templates, and handles memory (chat history).
 * **[Hugging Face Hub](https://huggingface.co/):** Serves as the inference engine for the LLM. We access high-performance models via API without needing heavy local GPU resources.
-* **[FAISS (Facebook AI Similarity Search)](https://github.com/facebookresearch/faiss):** A highly efficient library for dense vector similarity search. It acts as the "Long-Term Memory" of the AI, storing medical knowledge chunks.
+* **[ Vector Database(FAISS) : ](https://github.com/facebookresearch/faiss):** A highly efficient library for dense vector similarity search. It acts as the "Long-Term Memory" of the AI, storing medical knowledge chunks.
 
 ### **2. Backend & Logic**
 
