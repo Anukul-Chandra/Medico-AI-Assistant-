@@ -1,5 +1,4 @@
 
-![alt text](image.png)
 # 🏥 Medico AI: Intelligent Medical Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge\&logo=python)
