@@ -1,24 +1,24 @@
-# Virtual Environment 
+# Python Virtual Environment
 .venv/
 venv/
-ENV/
 env/
 
-# Python cache files
+# Python Cache
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Environment variables 
+# Environment Variables (Secrets)
 .env
 
-# Vector Database 
-vectorstore/
-faiss_db/
+# VS Code & History (Junk files)
+.vscode/
+.history/
+.lh/
 
-# MacOS specific files 
-.DS_Store.venv/
-.history/
-.lh/
-.history/
-.lh/
+# Vector DB
+vectorstore/
+*.faiss
+*.pkl
+
+# OS Files
+.DS_Store
