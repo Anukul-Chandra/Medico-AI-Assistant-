@@ -58,6 +58,12 @@ We used a modern, scalable tech stack to build this application:
 
 ---
 
+## Screenshots : 
+![alt text](image-1.png)
+
+# Question Outside of The Context 
+
+![alt text](image-2.png)
 ## 🛑 **Development Challenges & Solutions (Dev Log)**
 
 Building a production-ready AI application comes with its own set of version control and data management hurdles. Here is how we solved critical issues during development:
