@@ -64,6 +64,9 @@ We used a modern, scalable tech stack to build this application:
 ## Screenshots : 
 ### Question from Context : 
 
+<img width="1277" height="716" alt="image" src="https://github.com/user-attachments/assets/b10641b3-0d5b-4ca0-8663-ac08b7c269a3" />
+
+<img width="1280" height="690" alt="image" src="https://github.com/user-attachments/assets/dcf9f0cf-b977-44d9-bee6-a70fcd2ea43c" />
 
 
 # Question Outside of The Context 
