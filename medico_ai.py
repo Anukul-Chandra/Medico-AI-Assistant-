@@ -41,7 +41,7 @@ Context:
 """
 
 # --- Cached Resources ---
-@st.cache_resource
+@st.cache_resource(ttl="1h")
 def get_vectorstore():
     embedding_model = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
     try:
