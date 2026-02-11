@@ -26,6 +26,8 @@ INSTRUCTIONS:
    - Start directly with the answer.
    - Use bullet points for lists.
 4. MISSING DATA: If the answer is truly missing, say: "I cannot find specific details in the provided documents."
+5. CLARIFICATION: If the question is unclear, ask for clarification instead of guessing.
+
 
 Context:
 {context}
