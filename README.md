@@ -57,9 +57,15 @@ We used a modern, scalable tech stack to build this application:
 * **Streamlit:** Used to create a clean, responsive, and interactive web interface for the chatbot, allowing real-time communication with the AI.
 
 ---
+# 🚀 **Live Demo :** [Medico AI](https://huggingface.co/spaces/AnukulChandra/medico-Ai)
+---
+
+
 
 ## Screenshots : 
-![alt text](image-1.png)
+### Question from Context : 
+
+
 
 # Question Outside of The Context 
 
